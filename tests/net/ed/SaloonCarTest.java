@@ -17,7 +17,7 @@ public class SaloonCarTest {
 
     @Test
     public void getManufacturer() {
-        String expected = "Toyotea";
+        String expected = "Toyota";
         String actual = saloonCar.getManufacturer();
         assertEquals(expected, actual);
     }
