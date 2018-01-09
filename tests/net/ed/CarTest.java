@@ -9,7 +9,7 @@ public class CarTest {
     @Test
     public void getColour() throws Exception{
         Car car1 = new Car("Red", "Toyota");
-        String expected = "Red";
+        String expected = "Redd";
         String actual = car1.getColour();
         assertEquals(expected, actual);
     }
