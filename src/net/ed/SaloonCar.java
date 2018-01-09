@@ -8,6 +8,10 @@ public class SaloonCar extends Car {
 
     private int numberOfSeats;
 
+    public SaloonCar() {
+
+    }
+
     /**
      * Constructor 1 allows assignment of numberOfSeats only
      * @param numberOfSeats
@@ -29,11 +33,11 @@ public class SaloonCar extends Car {
     /**
      * Constructor 3 allows assignment of numberOfSeats, manufacturer and color
      * @param numberOfSeats
-     * @param colour
      * @param manufacturer
+     * @param colour
      */
-    public SaloonCar(int numberOfSeats, String colour, String manufacturer) {
-        super(colour, manufacturer);
+    public SaloonCar(int numberOfSeats, String manufacturer, String colour) {
+        super(manufacturer, colour);
         this.numberOfSeats = numberOfSeats;
     }
 

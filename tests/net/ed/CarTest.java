@@ -8,14 +8,14 @@ public class CarTest {
     @Test
     public void getColour() throws Exception{
         Car car1 = new Car("Red", "Toyota");
-        String expected = "Redd";
+        String expected = "Red";
         String actual = car1.getColour();
         assertEquals(expected, actual);
     }
 
     @Test
     public void getManufacturer() throws Exception {
-        Car car1 = new Car("Red", "Toyotera");
+        Car car1 = new Car("Red", "Toyota");
         String expected = "Toyota";
         String actual = car1.getManufacturer();
         assertEquals(expected, actual);
