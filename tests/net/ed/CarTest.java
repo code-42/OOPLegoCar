@@ -13,4 +13,12 @@ public class CarTest {
         String actual = car1.getColour();
         assertEquals(expected, actual);
     }
+
+    @Test
+    public void getManufacturer() throws Exception {
+        Car car1 = new Car("Red", "Toyotera");
+        String expected = "Toyota";
+        String actual = car1.getManufacturer();
+        assertEquals(expected, actual);
+    }
 }
