@@ -21,7 +21,7 @@ public class Main {
         SaloonCar saloonCar3 = new SaloonCar(4, "Ford", "Purple");
         System.out.println(
                 saloonCar3.getManufacturer() + " " +
-                saloonCar3.getColour() + " with " +
+                saloonCar3.getColor() + " with " +
                 saloonCar3.getNumberOfSeats() + " seats");
 
     }

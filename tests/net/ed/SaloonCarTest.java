@@ -23,9 +23,18 @@ public class SaloonCarTest {
     }
 
     @Test
-    public void getColour() throws Exception{
+    public void getColor() throws Exception{
         String expected = "Red";
-        String actual = saloonCar.getColour();
+        String actual = saloonCar.getColor();
         assertEquals(expected, actual);
+    }
+
+    @Test
+    public void getAllProperties() {
+        SaloonCar car = new SaloonCar(6, "Red", "Ford");
+        int seats = car.getNumberOfSeats();
+        String color = car.getColor();
+        String manufacturer = car.getManufacturer();
+        System.out.println(color + " " + manufacturer + " with " + seats + " seats");
     }
 }

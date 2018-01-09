@@ -1,11 +1,11 @@
 package net.ed;
 
 /**
- * Make a Car class with properties: colour and manufacturer
+ * Make a Car class with properties: color and manufacturer
  */
 public class Car {
 
-    private String colour;
+    private String color;
     private String manufacturer;
 
     /**
@@ -16,11 +16,11 @@ public class Car {
 
     /**
      * Constructor instantiates object with color and manufacturer
-     * @param colour
+     * @param color
      * @param manufacturer
      */
-    public Car(String colour, String manufacturer) {
-        this.colour = colour;
+    public Car(String color, String manufacturer) {
+        this.color = color;
         this.manufacturer = manufacturer;
     }
 
@@ -34,15 +34,15 @@ public class Car {
 
     /**
      * getter for color property
-     * @return
+     * @return String color
      */
-    public String getColour() {
-        return colour;
+    public String getColor() {
+        return color;
     }
 
     /**
      * getter for manufacturer property
-     * @return
+     * @return String manufacturer
      */
     public String getManufacturer() {
         return manufacturer;

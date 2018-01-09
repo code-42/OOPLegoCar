@@ -6,10 +6,10 @@ import static org.junit.Assert.*;
 public class CarTest {
 
     @Test
-    public void getColour() throws Exception{
+    public void getColor() throws Exception{
         Car car1 = new Car("Red", "Toyota");
         String expected = "Red";
-        String actual = car1.getColour();
+        String actual = car1.getColor();
         assertEquals(expected, actual);
     }
 
