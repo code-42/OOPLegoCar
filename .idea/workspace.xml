@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2f0e2e08-4e31-454d-9b8f-3a02635373e3" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/net/ed/README.md" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/src/net/ed/README.md" afterPath="" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -41,11 +40,11 @@
         </entry>
       </file>
       <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/net/ed/README.md">
+        <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
               <first_editor relative-caret-position="0">
-                <caret line="0" column="18" lean-forward="false" selection-start-line="0" selection-start-column="18" selection-end-line="0" selection-end-column="18" />
+                <caret line="0" column="45" lean-forward="false" selection-start-line="0" selection-start-column="45" selection-end-line="0" selection-end-column="45" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -122,6 +121,8 @@
         <option value="$PROJECT_DIR$/src/net/ed/Main.java" />
         <option value="$PROJECT_DIR$/src/net/ed/SaloonCar.java" />
         <option value="$PROJECT_DIR$/src/net/ed/README.md" />
+        <option value="$PROJECT_DIR$/../README.md" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -159,38 +160,6 @@
             <path>
               <item name="OOPLegoCar" type="b2602c69:ProjectViewProjectNode" />
               <item name="OOPLegoCar" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="OOPLegoCar" type="b2602c69:ProjectViewProjectNode" />
-              <item name="OOPLegoCar" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="OOPLegoCar" type="b2602c69:ProjectViewProjectNode" />
-              <item name="OOPLegoCar" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="ed" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="OOPLegoCar" type="b2602c69:ProjectViewProjectNode" />
-              <item name="OOPLegoCar" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="ed" type="462c0819:PsiDirectoryNode" />
-              <item name="Car" type="1a9f42e2:ClassTreeNode" />
-            </path>
-            <path>
-              <item name="OOPLegoCar" type="b2602c69:ProjectViewProjectNode" />
-              <item name="OOPLegoCar" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="ed" type="462c0819:PsiDirectoryNode" />
-              <item name="Main" type="1a9f42e2:ClassTreeNode" />
-            </path>
-            <path>
-              <item name="OOPLegoCar" type="b2602c69:ProjectViewProjectNode" />
-              <item name="OOPLegoCar" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="ed" type="462c0819:PsiDirectoryNode" />
-              <item name="SaloonCar" type="1a9f42e2:ClassTreeNode" />
             </path>
             <path>
               <item name="OOPLegoCar" type="b2602c69:ProjectViewProjectNode" />
@@ -241,6 +210,9 @@
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/.." />
     </key>
   </component>
   <component name="RunDashboard">
@@ -583,6 +555,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/../README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="0">
+            <caret line="0" column="18" lean-forward="false" selection-start-line="0" selection-start-column="18" selection-end-line="0" selection-end-column="18" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/net/ed/SaloonCar.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="246">
@@ -596,11 +579,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/net/ed/README.md">
+    <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="0">
-            <caret line="0" column="18" lean-forward="false" selection-start-line="0" selection-start-column="18" selection-end-line="0" selection-end-column="18" />
+            <caret line="0" column="45" lean-forward="false" selection-start-line="0" selection-start-column="45" selection-end-line="0" selection-end-column="45" />
             <folding />
           </first_editor>
           <second_editor />

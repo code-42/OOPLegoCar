@@ -1,1 +1,0 @@
-![OOP Lego Car Assignment](../../../resources/OOP_Lego_Car_Assignment.png "OOP Lego Car Assignment.png")
