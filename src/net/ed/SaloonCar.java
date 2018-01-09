@@ -1,7 +1,7 @@
 package net.ed;
 
 /**
- * Make new SaloonCar class that inherits froom Car class
+ * Make new SaloonCar class that inherits from Car class
  * Add new property called: numberOfSeats
  */
 public class SaloonCar extends Car {
@@ -37,6 +37,10 @@ public class SaloonCar extends Car {
         this.numberOfSeats = numberOfSeats;
     }
 
+    /**
+     *
+     * @return numberOfSeats
+     */
     public int getNumberOfSeats() {
         return numberOfSeats;
     }

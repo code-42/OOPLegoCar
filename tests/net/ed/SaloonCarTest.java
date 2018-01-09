@@ -14,4 +14,11 @@ public class SaloonCarTest {
         int actual = saloonCar.getNumberOfSeats();
         assertEquals(expected, actual);
     }
+
+    @Test
+    public void getManufacturer() {
+        String expected = "Toyotea";
+        String actual = saloonCar.getManufacturer();
+        assertEquals(expected, actual);
+    }
 }
