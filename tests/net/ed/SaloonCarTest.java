@@ -36,5 +36,8 @@ public class SaloonCarTest {
         String color = car.getColor();
         String manufacturer = car.getManufacturer();
         System.out.println(color + " " + manufacturer + " with " + seats + " seats");
+        String expected = "Redd Ford with 6 seats";
+        String actual = color + " " + manufacturer + " with " + seats + " seats";
+        assertEquals(expected, actual);
     }
 }

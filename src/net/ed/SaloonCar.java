@@ -40,8 +40,8 @@ public class SaloonCar extends Car {
      * @param manufacturer String
      * @param color String
      */
-    public SaloonCar(int numberOfSeats, String manufacturer, String color) {
-        super(manufacturer, color);
+    public SaloonCar(int numberOfSeats, String color, String manufacturer) {
+        super(color, manufacturer);
         this.numberOfSeats = numberOfSeats;
     }
 
