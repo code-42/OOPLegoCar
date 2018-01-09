@@ -9,7 +9,6 @@ public class SaloonCar extends Car {
     private int numberOfSeats;
 
     public SaloonCar() {
-
     }
 
     /**
@@ -42,7 +41,7 @@ public class SaloonCar extends Car {
     }
 
     /**
-     *
+     * getter for numberOfSeats
      * @return numberOfSeats
      */
     public int getNumberOfSeats() {

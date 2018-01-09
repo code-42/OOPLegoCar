@@ -13,7 +13,8 @@ public class Main {
 
         // Create object saloonCar2 with 3 seats and manufacturer Nissan
         SaloonCar saloonCar2 = new SaloonCar(3, "Nissan");
-        System.out.println(saloonCar2.getManufacturer() + " with " +
+        System.out.println(
+                saloonCar2.getManufacturer() + " with " +
                 saloonCar2.getNumberOfSeats() + " seats.");
 
         // Create object saloonCar3 with 4 seats, manufacturer Ford and color purple
@@ -21,7 +22,7 @@ public class Main {
         System.out.println(
                 saloonCar3.getManufacturer() + " " +
                 saloonCar3.getColour() + " with " +
-                saloonCar3.getNumberOfSeats() + " seats.");
+                saloonCar3.getNumberOfSeats() + " seats");
 
     }
 }
