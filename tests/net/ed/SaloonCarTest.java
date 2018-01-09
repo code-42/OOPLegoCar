@@ -6,7 +6,7 @@ import static org.junit.Assert.*;
 
 public class SaloonCarTest {
 
-    SaloonCar saloonCar = new SaloonCar(1, "Red", "Toyota");
+    SaloonCar saloonCar = new SaloonCar(2, "Red", "Toyota");
 
     @Test
     public void getNumberOfSeats() throws Exception{
@@ -31,12 +31,11 @@ public class SaloonCarTest {
 
     @Test
     public void getAllProperties() {
-        SaloonCar car = new SaloonCar(6, "Red", "Ford");
-        int seats = car.getNumberOfSeats();
-        String color = car.getColor();
-        String manufacturer = car.getManufacturer();
+        int seats = saloonCar.getNumberOfSeats();
+        String color = saloonCar.getColor();
+        String manufacturer = saloonCar.getManufacturer();
         System.out.println(color + " " + manufacturer + " with " + seats + " seats");
-        String expected = "Redd Ford with 6 seats";
+        String expected = "Red Toyota with 2 seats";
         String actual = color + " " + manufacturer + " with " + seats + " seats";
         assertEquals(expected, actual);
     }
